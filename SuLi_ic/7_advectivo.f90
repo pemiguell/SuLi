@@ -445,9 +445,9 @@ SUBROUTINE rotacional(uint,vint,wint)
 	enddo
 	enddo
 
-	elseif (der == 2) then
+	else
 
-	write(*,*) "não possui centrado para o rotacional"
+	write(*,*) "não possui este esquema para o rotacional"
 	STOP
 
 	endif
@@ -641,9 +641,9 @@ SUBROUTINE antissim(uint,vint,wint)
 	enddo
 	enddo
 
-	elseif (der == 2) then
+	else
 
-	write(*,*) "não possui centrado para o rotacional"
+	write(*,*) "não possui esquema para o antissimétrico"
 	STOP
 
 	endif

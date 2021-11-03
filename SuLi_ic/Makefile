@@ -34,6 +34,6 @@ clean:
 
 allclean:
 	rm -f *.o *.mod rodar_3d
-	rm -f arquivos/*
-	rm -f dados/*
-
+	rm -rf arquivos
+	rm -rf dados
+	rm -f saida
